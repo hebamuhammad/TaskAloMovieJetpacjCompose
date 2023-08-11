@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JetpackCompose</string>
+    <string name="content_description">Description</string>
+</resources>
