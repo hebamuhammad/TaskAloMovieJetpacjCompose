@@ -4,10 +4,10 @@ import com.google.gson.annotations.SerializedName
 
 data class RemoteMove(
     val id : Int ,
-    @SerializedName("gym_name")
+    @SerializedName("move_name")
     val title : String ,
-    @SerializedName("gym_location")
+    @SerializedName("description")
     val location : String ,
-    @SerializedName("is_open")
+    @SerializedName("is_available")
     val isOpen : Boolean
 )

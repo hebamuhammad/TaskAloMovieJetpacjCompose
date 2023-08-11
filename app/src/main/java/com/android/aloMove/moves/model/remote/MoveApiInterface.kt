@@ -5,9 +5,9 @@ import retrofit2.http.Query
 
 interface MoveApiInterface {
 
-    @GET("gyms.json")
+    @GET("moves.json")
     suspend fun getMoves(): List<RemoteMove>
 
-    @GET("gyms.json?orderBy=\"id\"" )
+    @GET("moves.json?orderBy=\"id\"" )
     suspend fun getMove(@Query("equalTo") id : Int):Map<String , RemoteMove>
 }

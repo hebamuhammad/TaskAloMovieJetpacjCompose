@@ -38,7 +38,7 @@ object MoveDataModule {
     fun provideRetrofit() : Retrofit{
         return Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
-            .baseUrl("https://gymdb-111ad-default-rtdb.firebaseio.com/")
+            .baseUrl("https://alomovie-default-rtdb.firebaseio.com/")
             .build()
     }
 
